@@ -17,7 +17,12 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
     <link href="./style.css" rel="stylesheet" />
-    <link href="https://allfont.net/cache/css/agency-fb.css" rel="stylesheet" rel="stylesheet" type="text/css">
+    <link
+      href="https://allfont.net/cache/css/agency-fb.css"
+      rel="stylesheet"
+      rel="stylesheet"
+      type="text/css"
+    />
     <link href="./images/mrtech_black.png" rel="icon" type="image/x-icon" />
     <title>My Portfolio</title>
   </head>
@@ -223,18 +228,17 @@
               src="images/challengeday.png"
             />
           </div>
-          <h1
-            class="text-2xl text-left lg:text-center truncate md:whitespace-normal"
-          >
+          <h1 class="text-2xl text-left lg:text-center md:whitespace-normal">
             <a
-              class="no-underline hover:underline text-black truncate"
+              class="no-underline hover:underline text-black"
               href="https://github.com/shadowofleaf96/WorkingProject"
             >
               Ark-X Challenge days and Some old Projects
             </a>
           </h1>
-          <p class="text-lg text-gray-500 truncate md:whitespace-normal">
+          <p class="text-lg text-gray-500 md:whitespace-normal">
             Without those day Challenges, this portfolio will never be existed
+            <br /><br />
           </p>
         </div>
         <!-- END Column -->
@@ -249,17 +253,15 @@
               src="images/imusic.png"
             />
           </div>
-          <h1
-            class="text-2xl text-left lg:text-center truncate md:whitespace-normal"
-          >
+          <h1 class="text-2xl text-left lg:text-center md:whitespace-normal">
             <a
-              class="no-underline hover:underline text-black truncate"
+              class="no-underline hover:underline text-black"
               href="https://github.com/shadowofleaf96/Timber"
             >
               IMusic, TWRPBE and Moroccan Recipes and Others
             </a>
           </h1>
-          <p class="text-lg text-gray-500 truncate md:whitespace-normal">
+          <p class="text-lg text-gray-500 md:whitespace-normal">
             I begin with a calculator like every one, IMusic is music player, a
             work of an old open source App called Timber and Others
           </p>
@@ -275,20 +277,18 @@
               src="images/tadkir.png"
             />
           </div>
-          <h1
-            class="text-2xl text-left lg:text-center truncate md:whitespace-normal"
-          >
+          <h1 class="text-2xl text-left lg:text-center md:whitespace-normal">
             <a
-              class="no-underline hover:underline text-black truncate"
+              class="no-underline hover:underline text-black"
               href="https://github.com/shadowofleaf96/Tadkir"
             >
               NetCutter and Tadkir Apps
             </a>
           </h1>
-          <p class="text-lg text-gray-500 truncate md:whitespace-normal">
+          <p class="text-lg text-gray-500 md:whitespace-normal">
             Netcutter is an app that stop Internet for certains connected
-            devices on a Wi-Fi or Ethernet, Tadkir is a Simple WPF App on
-            Windows to remember that reading quran is a good thing
+            devices on a Wi-Fi or Ethernet, Tadkir is a App on Windows to
+            remember that reading quran is a good thing
           </p>
         </div>
 
@@ -303,7 +303,7 @@
             />
           </div>
           <h1
-            class="text-2xl text-left lg:text-center truncate md:whitespace-normal mt-2"
+            class="text-2xl text-left lg:text-center md:whitespace-normal mt-2"
           >
             <a
               class="no-underline hover:underline text-black"
@@ -312,9 +312,10 @@
               Moghamarat L3arbi
             </a>
           </h1>
-          <p class="text-lg text-gray-500 truncate md:whitespace-normal">
+          <p class="text-lg text-gray-500 md:whitespace-normal">
             this game is based on Red Runner on Github, This project is just to
             enter unity dev world
+            <br /><br />
           </p>
         </div>
 
@@ -329,7 +330,7 @@
             />
           </div>
           <h1
-            class="text-2xl text-left lg:text-center truncate md:whitespace-normal mt-2"
+            class="text-2xl text-left lg:text-center md:whitespace-normal mt-2"
           >
             <a
               class="no-underline hover:underline text-black"
@@ -338,7 +339,7 @@
               LineageOS 17.1 For my Phone, Shadow Kernel b2q and TWRP
             </a>
           </h1>
-          <p class="text-lg text-gray-500 truncate md:whitespace-normal">
+          <p class="text-lg text-gray-500 md:whitespace-normal">
             LineageOS is an open-source Android distribution based on AOSP,
             means anyone can adapt lineageos to run on its device, you can see
             my work on XDA Forums
@@ -356,7 +357,7 @@
             />
           </div>
           <h1
-            class="text-2xl text-left lg:text-center truncate md:whitespace-normal mt-2"
+            class="text-2xl text-left lg:text-center md:whitespace-normal mt-2"
           >
             <a
               class="no-underline hover:underline text-black"
@@ -365,7 +366,7 @@
               Building Budget Gaming PC and others
             </a>
           </h1>
-          <p class="text-lg text-gray-500 truncate md:whitespace-normal">
+          <p class="text-lg text-gray-500 md:whitespace-normal">
             I have A lot of videos and shorts in YouTube and TikTok, not the
             best videos but im improving with time
           </p>
@@ -534,7 +535,11 @@
         // send the email here
         emailjs.sendForm(serviceID, templateID, this).then(
           (response) => {
-            console.log("Your Email has been sent!", response.status, response.text);
+            console.log(
+              "Your Email has been sent!",
+              response.status,
+              response.text
+            );
             alert("SUCCESS!");
           },
           (error) => {
