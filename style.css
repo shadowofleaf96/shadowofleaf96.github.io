@@ -22,13 +22,6 @@ body {
   font-family: "Agency FB", sans-serif;
 }
 
-@font-face {
-  font-family: F16;
-  src: url("../font/AGENCYR.TTF") format('truetype');
-  font-weight: bold;
-  font-style: normal;
-}
-
 .link-underline {
   border-bottom-width: 0;
   background-image: linear-gradient(transparent, transparent),
