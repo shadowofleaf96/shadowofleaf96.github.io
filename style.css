@@ -13,8 +13,13 @@
 
 /* SMOOTHER SCROLLING*/
 html {
+  font-family: "Agency FB", sans-serif;
   scroll-padding-top: 90px;
   scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Agency FB", sans-serif;
 }
 
 @font-face {
@@ -22,10 +27,6 @@ html {
   src: url("../font/AGENCYR.TTF") format('truetype');
   font-weight: bold;
   font-style: normal;
-}
-
-body {
-  font-family: "Agency FB", sans-serif;
 }
 
 .link-underline {
