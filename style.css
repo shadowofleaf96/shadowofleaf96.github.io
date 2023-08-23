@@ -17,7 +17,10 @@ html {
   scroll-behavior: smooth;
 }
 
-@import url('https://fonts.cdnfonts.com/css/agency-fb');
+@font-face {
+  font-family: 'Agency FB';
+  src: url('font/AGENCYR.TTF'); /* IE9 Compat Modes */
+}
 
 body {
   font-family: "Agency FB", sans-serif;
