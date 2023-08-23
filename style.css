@@ -3263,6 +3263,10 @@ h1::before {
     float: left;
   }
 
+  .disable-font {
+    font-family: inherit !important;
+  }
+
   .header li a {
     padding: 20px 30px;
   }
