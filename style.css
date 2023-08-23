@@ -18,8 +18,10 @@ html {
 }
 
 @font-face {
-  font-family: 'Agency FB';
-  src: url('font/AGENCYR.TTF'); /* IE9 Compat Modes */
+  font-family: F16;
+  src: url("../font/AGENCYR.TTF") format('truetype');
+  font-weight: bold;
+  font-style: normal;
 }
 
 body {
