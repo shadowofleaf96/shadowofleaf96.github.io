@@ -20,6 +20,16 @@
   /* 2 */
 }
 
+@font-face {
+  font-family: AgencyFB;
+  src: url(./font/AgencyFB.ttf);
+}
+
+@font-face {
+  font-family: AgencyFBBold;
+  src: url(./font/AGENCYB.TTF);
+}
+
 ::before,
 ::after {
   --tw-content: '';
@@ -2618,13 +2628,13 @@ video {
 /* SMOOTHER SCROLLING*/
 
 html {
-  font-family: "Agency FB", arial;
+  font-family: "AgencyFB", arial;
   scroll-padding-top: 90px;
   scroll-behavior: smooth;
 }
 
 body {
-  font-family: "Agency FB", arial;
+  font-family: "AgencyFB", arial;
 }
 
 .link-underline {
