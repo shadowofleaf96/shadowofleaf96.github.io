@@ -704,7 +704,7 @@ figure.show {
   }
 
   .buybuttons {
-    width: 6em;
+    width: 1em;
     font-size: 1.2em;
     bottom: 3em;
     left: 50%;
@@ -821,16 +821,16 @@ figure.show {
   cursor: pointer;
   align-items: center;
   justify-content: center;
-  left: 65%;
+  left: 75%;
   bottom: 0;
-  margin-bottom: 10%;
+  margin-bottom: 8%;
   position: absolute;
   border: none;
-  border-radius: 5px;
-  width: 6vw;
+  border-radius: 200px 200px 200px 200px;
+  width: 2.5em;
   margin-left: auto;
   margin-top: auto; /* Push the div to the bottom of the card */
-  height: 2em;
+  height: 2.5em;
   font-size: 1em;
 }
 .product-card:hover {
